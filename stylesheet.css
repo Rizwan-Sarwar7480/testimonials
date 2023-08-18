@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
+}
+.rs__testimonals {
+    padding: 50px 0px;
+}
+
+.rs__testimonals .rs__heading {}
+
+.rs__testimonals .rs__heading h1 {
+    margin: 0px 0px 50px;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.rs__testimonals .rs__item {
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 50px 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    /* content: "\07b"; */
+}
+
+.rs__testimonals .rs__item .rs__img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0px auto 30px;
+}
+
+.rs__testimonals .rs__item .rs__text {
+    margin: 0px 0px 30px;
+}
+
+.rs__testimonals .rs__item .rs__sm__text {
+}
+
+.rs__testimonals .rs__item .rs__img img {width: 150%;margin: -20px 0px 0px -30px;}
+
+.rs__testimonals .rs__item p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0 0 0 / 60%);
+    margin: 0px;
+}
+
+.rs__testimonals .rs__item p.rs__bold {
+    font-weight: 800;
+    margin: 0px 0px 0px;
+    color: black;
+}
+
+.rs__testimonals .rs__item p span {
+    color: orange;
+}
+
+.rs__testimonals .rs__item::before {
+    content: "”";
+    top: 0px;
+    left: 40px;
+    background-color: orange;
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    padding: 34px 10px 0px;
+}
+
+.rs__testimonals .splide .rs__grid {
+    gap: 20px;
+    margin: 0px 0px 20px!important;
+}
